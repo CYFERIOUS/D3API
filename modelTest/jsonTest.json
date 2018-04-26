@@ -1,0 +1,19 @@
+[
+	{
+		"Year": "2013",
+		"Gran_grupo": "Trabajo_no_SCN",
+		"Actividad": "Cuidado_niños",
+		"category": "Extenso - compuesto",
+		"data": [
+			{
+				"key": "hombre",
+				"value": 12.17
+			},
+			{
+				"key": "mujer",
+				"value": 20.6
+			}
+		]
+	}
+
+]
