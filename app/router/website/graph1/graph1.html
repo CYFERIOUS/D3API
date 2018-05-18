@@ -28,8 +28,10 @@ xmlhttp.onreadystatechange = function() {
 xmlhttp.open("GET", url, true);
 xmlhttp.send();
 
+var nene = [];
+
 function datos(datos){
-    console.log("datos",datos);
+    nene =  datos;
 }
             
 
@@ -37,7 +39,7 @@ function popo(){
 
 
 
- alert("nene");
+ console.log("nene",nene);
 
  //2 different data arrays
             var dataArray1 = [30,35,45,55,70];
