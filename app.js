@@ -6,8 +6,11 @@ var api = require('./app/model/server/');
 var app = express();
 
 
+var routes = require('./app/router/routes')(app);
+
+
 app.use(logger('dev'));
-app.use(express.static(path.join(__dirname, 'app/router/website')));
+app.use(express.static(path.join(__dirname, '/app/router/website')));
 app.use('/app/model/server/', api);
 
 

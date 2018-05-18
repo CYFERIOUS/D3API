@@ -1,3 +1,7 @@
+
+
+
+
  alert("nene");
 
  //2 different data arrays
@@ -69,4 +73,3 @@
                     d3.select("text").text("dataset"+dataIndex);
 
                 });//end click function
- 
