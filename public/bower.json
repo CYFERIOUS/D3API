@@ -1,0 +1,22 @@
+{
+  "name": "API D3",
+  "homepage": "https://github.com/CYFERIOUS/NavExercise",
+  "authors": [
+    "FERNANDO NOSSA - DIMCE"
+  ],
+  "description": "COLLECTION OF CHARTS GRAPHS FOR DANE - COLOMBIA",
+  "main": "app.js",
+  "keywords": [
+    "DANE",
+    "D3",
+    "API"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

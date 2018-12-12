@@ -1,19 +1,37 @@
 {
-  "name": "D3-API",
-  "version": "0.0.0",
-  "main": "app.js",
-  "author": {
-    "name": "Fernando Nossa--DIMCE"
+  "name": "APIExercise",
+  "description": "study by myself",
+  "version": "0.1.0",
+  "authors": [
+    "Fercho Nossa <frankdrujes@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hugeinc/NavExercise",
+  "bugs": {
+    "url": "https://github.com/hugeinc/NavExercise/issues"
   },
-  "private": true,
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/www"
+    "start": "nodemon ./bin/www"
   },
   "dependencies": {
-    "express": "^4.2.0",
-    "jsonfile": "^2.0.1",
-    "morgan": "^1.0.1",
-    "path": "^0.11.14"
+    "angular": "^1.7.5",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "joi": "^13.4.0",
+    "joi-password-complexity": "^2.0.1",
+    "jsonfile": "^4.0.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.2.3",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.1.1",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "less": "^3.7.1"
   }
 }

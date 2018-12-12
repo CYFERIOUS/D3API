@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Parent Window</title>
+</head>
+<body>
+
+    <h1>Parent Window</h1>
+    <p>Send Message: <button id="message_button">Hi there iframe</button></p>
+    <p>Got Message:</p>
+    <div id="results"></div>
+    <br/>
+
+    
+    <iframe data-url="http://localhost:8080/hello" id="the_iframe" src="http://localhost:3000/graph1/" height="600" width="500"></iframe>
+
+    <script src="../apiClient.js"></script>
+</body>
+</html>

@@ -4,6 +4,9 @@ var port = process.env.PORT || 3000;
 
 app.set('port', port);
 
+
 app.listen(port, function() {
-  console.log('API-D3 is available at http://localhost:' + port);
+
+  console.log('STUDY application is available at http://localhost:' + port);
+
 });
